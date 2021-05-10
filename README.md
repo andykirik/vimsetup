@@ -73,9 +73,20 @@ Usage:
 ```
 netrw - directory browser
 ```
-:Explore - opens netrw in the current window
-:Sexplore - opens netrw in a horizontal split
-:Vexplore - opens netrw in a vertical split
+:Explore or :Ex <path> - opens netrw in the current window
+:Sexplore or :Sex <path> - opens netrw in a horizontal split
+:Vexplore or :Vex <path> - opens netrw in a vertical split
+:Vex! <path> - opens netrw in a vertical split, opposite side
+I - Toggle the banner
+c - Make the browsing directory the current working directory
+i - Cycle between different listing modes (one of them is tree mode)
+enter - Open files/directories
+- - Go up one directory
+o - Open file/directory in new horizontal split
+v - Open file/directory in new vertical split
+t - Open file/directory in new tab
+p - Preview file without (moving the cursor from netrw)
+x - Open the file/directory with the default system app
 ```
 
 ## License
