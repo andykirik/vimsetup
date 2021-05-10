@@ -24,7 +24,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'https://github.com/ctrlpvim/ctrlp.vim.git'
-Plug 'https://github.com/ycm-core/YouCompleteMe.git'
+"Plug 'https://github.com/ycm-core/YouCompleteMe.git'
 Plug 'mbbill/undotree'
 
 call plug#end()
