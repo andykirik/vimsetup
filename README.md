@@ -67,12 +67,12 @@ Installation Ubuntu 20.04:
 	Install YCM plugin using plugin manager
 	apt install build-essential cmake vim-nox python3-dev
 	apt install mono-complete golang nodejs default-jdk npm
-	cd ~/.vim/bundle/YouCompleteMe
+	cd ~/.vim/plugged/YouCompleteMe
 	python3 install.py --all
 Installation Ubuntu 16.04
 	Install YCM plugin using plugin manager
 	apt install build-essential cmake vim-nox python3-dev
-	cd ~/.vim/bundle/YouCompleteMe
+	cd ~/.vim/plugged/YouCompleteMe
 	python3 install.py --clangd-completer
 ```
 UndoTree - 
