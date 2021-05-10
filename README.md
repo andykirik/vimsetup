@@ -62,7 +62,19 @@ Once CtrlP is open:
 ```
 youcompleteme  - A code-completion engine for Vim
 	https://vimawesome.com/plugin/youcompleteme
-
+```
+Installation Ubuntu 20.04:
+	Install YCM plugin using plugin manager
+	apt install build-essential cmake vim-nox python3-dev
+	apt install mono-complete golang nodejs default-jdk npm
+	cd ~/.vim/bundle/YouCompleteMe
+	python3 install.py --all
+Installation Ubuntu 16.04
+	Install YCM plugin using plugin manager
+	apt install build-essential cmake vim-nox python3-dev
+	cd ~/.vim/bundle/YouCompleteMe
+	python3 install.py --clangd-completer
+```
 UndoTree - 
 	https://github.com/mbbill/undotree
 ```
